@@ -12,7 +12,9 @@ function addUser(e) {
     city: document.getElementById("city").value,
     phone: document.getElementById("phone").value,
   };
+
   //edit
+
   if (editIndex === -1) {
     users.push(newUser);
   } else {

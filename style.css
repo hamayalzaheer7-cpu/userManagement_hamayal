@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 25px;
 }
+
 h1,
 h2 {
   color: #713b05;
@@ -33,7 +34,7 @@ button {
 }
 
 button:hover {
-  background: #35658d;
+  background: rgb(240, 226, 209);
 }
 input,
 select {
