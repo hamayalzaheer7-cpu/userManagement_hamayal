@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user management application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>User Management App</h1>
+    <div class="form-box">
+      <h2>Add New User</h2>
+      <form onsubmit="addUser(event)">
+        <label> User Name</label>
+        <input type="text" id="name" placeholder="Enter User name" required />
+
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Enter Email" required />
+
+        <label> City</label>
+        <input type="text" id="city" placeholder="Enter City" required />
+
+        <label> Phone</label>
+        <input
+          type="text"
+          id="phone"
+          placeholder="Enter Phone Number"
+          required
+        />
+
+        <button type="submit">Add User</button>
+      </form>
+    </div>
+
+    <div class="user">
+      <h2>User's Detail</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>email</th>
+          <th>city</th>
+          <th>phone</th>
+          <th>Action</th>
+        </tr>
+        <tbody id="userList"></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
