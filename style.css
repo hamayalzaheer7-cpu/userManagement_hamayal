@@ -1,6 +1,6 @@
 body {
   font-family: "Times New Roman", Times, serif;
-  background: rgb(240, 226, 209);
+  background:#f5f1ed;
   color: #1a1919;
   margin: 0;
   padding: 25px;
@@ -12,11 +12,11 @@ h2 {
   text-align: center;
 }
 .form-box {
-  background: rgb(239, 238, 239);
+  background: rgb(240, 234, 240);
   max-width: 400px;
   margin: 25px auto;
   padding: 20px;
-  border: 1px solid #d5e5f3;
+  border: 1px solid #352619;
 }
 
 label {
