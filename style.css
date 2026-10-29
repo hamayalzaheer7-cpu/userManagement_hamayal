@@ -30,7 +30,6 @@ button {
   border: none;
   padding: 10px 15px;
   margin-top: 15px;
-  cursor: pointer;
 }
 
 button:hover {
@@ -48,7 +47,6 @@ select {
 table {
   width: 100%;
   min-width: 550px;
-  border-collapse: collapse;
   background: white;
 }
 
